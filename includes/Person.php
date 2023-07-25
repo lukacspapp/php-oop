@@ -6,6 +6,8 @@ class Person {
   private $eyeColor;
   private $age;
 
+  public static $drinkingAge = 18;
+
   public function __construct($name, $eyeColor, $age)
   {
     $this->name = $name;
@@ -21,6 +23,11 @@ class Person {
   public function setName($name)
   {
     $this->name = $name;
+  }
+
+  public static function setNewDrinkingAge($newDrinkingAge)
+  {
+    self::$drinkingAge = $newDrinkingAge;
   }
 
 }

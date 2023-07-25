@@ -14,8 +14,10 @@
 
     <?php
 
-      $person1 = new Person("Lukacs", "Blue", 31);
-      echo $person1->getName();
+  echo Person::$drinkingAge;
+  Person::setNewDrinkingAge(21);
+  echo Person::$drinkingAge;
+
     ?>
 
   </body>
