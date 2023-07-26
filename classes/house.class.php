@@ -1,6 +1,6 @@
 <?php
 
-class NewClass {
+class House {
 
   public $data = "I am a property";
 
